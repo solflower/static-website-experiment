@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    height: 100vh;
+    background-color: #121314;
+}
+
+.nav {
+    position: fixed; 
+    width: 100%; 
+    background: #21222A;
+    color: #61DAFB; 
+    height: 91px;
+    padding: 0px 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.react-facts {
+    margin-left: 10px;
+    font-size: 23px; 
+    font-weight: 700; 
+}
+
+
+.project {
+    display: flex;
+    margin-left: auto;
+    color: #DEEBF8;
+}
+
+.project > h3{
+    margin-right: 20px;
+}
+
+.card {
+    background: #cdcfcf;
+    margin-top: 130px;
+    margin:130px 50px 0px 50px;
+    width:500px;
+    height: 360px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.article-image1 {
+    float: left;
+    width: 200px;
+    margin: 0px 15px 10px 0px
+  }
+
+  .article-image2 {
+    float: right;
+    width: 200px;
+    margin: 0px 0px 10px 15px
+  }
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+    
+    text-align: center;
+    size: 30px;
+    color: aliceblue;
+    padding:20px;
+    margin: 10px auto;
+    line-height: 48px;
+    width: 1000px;
+}
+
+.image-section {
+    background-image: url("https://i.insider.com/5c499e765241470ef4753873?width=1200&format=jpeg");
+    height: 500px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin: 30px 0px;
+}
+
+.footer {
+    background: #21222A;
+    color: rgb(187, 191, 194);
+    width: 100%; 
+}
+
+.box-container {
+    display:flex;
+    padding: 30px 50px 30px 200px;
+}
+
+.box {
+    padding: 20px;
+    line-height: 25px;
+}
+
+.bottom {
+    display:flex;
+    justify-content: right;
+    padding-bottom: 25px;
+}
+
+.bottom > p {
+    margin-right: 40px;
+}
