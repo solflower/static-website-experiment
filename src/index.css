@@ -4,6 +4,7 @@
 
 p{
     margin: 0px;
+    text-align: center;
 }
 
 body {
@@ -114,4 +115,11 @@ body {
 
 .bottom > p {
     margin-right: 40px;
+}
+
+.btn {
+    width: 100px;
+    height: 80px;
+    margin:20px 80px;
+    font-size: 38px;
 }

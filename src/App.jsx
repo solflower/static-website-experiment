@@ -6,6 +6,9 @@ import NavBar from './components/NavBar'
 import Card from './components/Card'
 import Paragraph from './components/Paragraph'
 import Footer from './components/Footer'
+import Counter from './components/Counter'
+import rat from './assets/rat.png'
+
 
 function App() {
   return (
@@ -20,9 +23,10 @@ function App() {
                 ">
       </Paragraph>
       <div className='image-section'></div>
-      <Paragraph
-        content ="Cras at orci magna. Ut hendrerit nibh sit amet magna mattis, nec efficitur mi suscipit.">
+      <Paragraph content ="Cras at orci magna. Ut hendrerit nibh sit amet magna mattis, nec efficitur mi suscipit.">
       </Paragraph>
+      <Counter/>
+      <img src={rat}></img>
       <Footer/>
       
     </>
