@@ -123,3 +123,14 @@ body {
     margin:20px 80px;
     font-size: 38px;
 }
+
+.cardv2{
+    border-style: dotted;
+    border-color: #cdcfcf;
+    color: white;
+    padding:18px;
+    width:300px;
+    height:300px;
+    word-wrap: break-word;
+    overflow: scroll;
+}
